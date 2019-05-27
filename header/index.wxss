@@ -1,0 +1,25 @@
+cover-view{
+  line-height: inherit;
+}
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-bottom: 18rpx;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+.title{
+  font-size: 36rpx;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.back .icon{
+  width:46rpx;
+  height:46rpx;
+}

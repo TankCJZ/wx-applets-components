@@ -1,0 +1,8 @@
+<cover-view class="header" style="padding-top: {{top}}px; padding-left: {{left}}px; line-height: {{height}}px; color: {{color}}; background: {{background}}">
+  <cover-view class="back" wx:if="{{hasBack || hasGoHome}}" catchtap='goBack' >
+    <cover-image src='./images/back-white.png' class="icon"></cover-image>
+  </cover-view>
+  <cover-view class="title" catchtap='goBack' >
+    <slot></slot>
+  </cover-view>
+</cover-view>
