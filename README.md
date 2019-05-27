@@ -1,6 +1,6 @@
 ## 微信小程序常用组件合集
 
-##### header组件
+#### header组件
 ```
 <header hasBack="{{true}}">首页</header>
 ```
